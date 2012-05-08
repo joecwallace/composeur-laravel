@@ -1,0 +1,1 @@
+## A [Composer](http://getcomposer.org/) bundle for [Laravel](http://laravel.com/)
