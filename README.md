@@ -18,10 +18,6 @@ I can't take much credit at all for what's going on here. Praise and adoration g
             ),
         );
 
-1. Set up composeur's "auto-update" capability ([Set up your database first](http://laravel.com/docs/database/config))
-
-        php artisan composeur::setup:auto_update
-
 1. Create ```application/config/composeur.php```
 
         return array(
