@@ -4,33 +4,33 @@
 
 1. Install the bundle
 
-    php artisan bundle:install composer
+        php artisan bundle:install composer
 
 1. Add composer to ```bundles.php```
 
-    return array(
-        'composer' => array(
-        	'auto' => true,
-        ),
-    );
+        return array(
+            'composer' => array(
+            	'auto' => true,
+            ),
+        );
 
 1. Set up composer's "auto-update" capability ([Set up your database first](http://laravel.com/docs/database/config))
 
-    php artisan composer::setup:auto_update
+        php artisan composer::setup:auto_update
 
 1. Create ```application/config/composer.php```
 
-    return array(
-    	'auto_update' => true, /* <== You'll need that */
-    	'require' => array(
-    		/* http://getcomposer.org/doc/01-basic-usage.md#the-require-key */
-    	),
-    );
+        return array(
+        	'auto_update' => true, /* <== You'll need that */
+        	'require' => array(
+        		/* http://getcomposer.org/doc/01-basic-usage.md#the-require-key */
+        	),
+        );
 
 1. Get out there and use your Composer packages
 
-** Gotcha: ```auto_update``` requires write permissions in the base and base/vendor directories
-** Note:   The first page load after configuration changes will take a while
+##### Gotcha: ```auto_update``` requires write permissions in the base and base/vendor directories
+##### Note:   The first page load after configuration changes will take a while
 
 ### A Partial Example
 
