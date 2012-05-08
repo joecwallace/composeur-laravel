@@ -1,6 +1,6 @@
 <?php
 
-class Composer_Cli_Task
+class Composeur_Cli_Task
 {
 	private $start_dir;
 	public function __construct()
@@ -59,7 +59,7 @@ class Composer_Cli_Task
 
 	protected function writeConfig()
 	{
-		$config = Config::get('composer');
+		$config = Config::get('composeur');
 		if (! empty($config))
 		{
 			unset($config['auto_update']);

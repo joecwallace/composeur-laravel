@@ -2,7 +2,7 @@
 
 require 'cli.php';
 
-class Composer_Setup_Task extends Composer_Cli_Task
+class Composeur_Setup_Task extends Composeur_Cli_Task
 {
 	public function run($args = array())
 	{
@@ -14,7 +14,7 @@ class Composer_Setup_Task extends Composer_Cli_Task
 
 	public function auto_update()
 	{
-		Schema::create('composer_bundle', function($table)
+		Schema::create('composeur_bundle', function($table)
 		{
 			$table->string('version', 32);
 		});
