@@ -108,7 +108,7 @@ It's not necessary to use the composeur bundle's Cli task to run Composer. Runni
 
 #### Not adding ```application/config/composeur.php```
 
-If you choose, you need not create ```application/config/composer.php```. As mentioned above, after the composer bundle is setup, you can use it from the ```{base}``` directory, so just create your own ```composer.json``` file there and get going. **Warning:** if you create your own ```composer.json``` and later create ```application/config/composer.php```, your ```composer.json``` might get eaten.
+If you choose, you need not create ```application/config/composeur.php```. As mentioned above, after the composeur bundle is setup, you can use it from the ```{base}``` directory, so just create your own ```composer.json``` file there and get going. **Warning:** if you create your own ```composer.json``` and later create ```application/config/composeur.php```, your ```composer.json``` might get eaten.
 
 #### Autoloaders and namespace conflicts
 
