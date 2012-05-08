@@ -1,5 +1,9 @@
 ## A [Composer](http://getcomposer.org/) bundle for [Laravel](http://laravel.com/)
 
+Not sure what's going on here? Here are the [Laravel docs](http://laravel.com/docs), and here are the [Composer docs](http://getcomposer.org/doc/).
+
+I can't take much credit at all for what's going on here. Pretty much all the credit goes to the [Laravel](http://laravel.com/) and [Composer](http://getcomposer.org/) people.
+
 ### Quick Start
 
 1. Install the bundle
