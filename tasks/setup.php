@@ -11,12 +11,4 @@ class Composeur_Setup_Task extends Composeur_Cli_Task
 
 		$this->test();
 	}
-
-	public function auto_update()
-	{
-		Schema::create('composeur_bundle', function($table)
-		{
-			$table->string('version', 32);
-		});
-	}
 }

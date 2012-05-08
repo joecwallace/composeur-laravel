@@ -67,17 +67,17 @@ class Composeur_Cli_Task
 		}
 	}
 
-	protected function dir()
+	public function dir()
 	{
 		return path('base');
 	}
 
-	protected function file()
+	public function file()
 	{
 		return 'composer.phar';
 	}
 
-	protected function path()
+	public function path()
 	{
 		return $this->dir() . $this->file();
 	}
