@@ -30,7 +30,7 @@
 
 1. Get out there and use your Composer packages
 
-##### Gotcha: ```auto_update``` requires write permissions in the ```{base}``` and ```{base}```/vendor directories
+##### Gotcha: ```auto_update``` requires write permissions in the ```{base}``` and ```{base}/vendor``` directories
 
 ##### Note:   The first page load after configuration changes will take a while
 
