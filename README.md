@@ -102,8 +102,14 @@ Monolog will be available anywhere in your Laravel application, so you could say
 
 ### More thoughts
 
+#### Running ```php artisan composer::cli:update``` versus ```php composer.phar update```
+
 It's not necessary to use the composer bundle's Cli task to run Composer. Running ```php artisan composer::setup``` installs composer.phar in the ```{base}``` directory, so from there you can simply run ```php composer.phar [command]```.
 
+#### Not adding ```application/config/composer.php```
+
 If you choose, you need not create ```application/config/composer.php```. As mentioned above, after the composer bundle is setup, you can use it from the ```{base}``` directory, so just create your own ```composer.json``` file there and get going. **Warning:** if you create your own ```composer.json``` and later create ```application/config/composer.php```, your ```composer.json``` might get eaten.
+
+#### Autoloaders and namespace conflicts
 
 This bundle adds Composer's autoloader to PHP's collection of autoloaders. It's added after Laravel's, so Laravel should have the first shot at resolving classes and namespaces. I suppose this means there is *some* chance of namespaces being resolved by Laravel when you want them to be resolved by Composer, but I guess you can figure that out.
