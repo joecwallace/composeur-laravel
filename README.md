@@ -109,3 +109,7 @@ If you choose, you need not create ```application/config/composeur.php```. As me
 #### Autoloaders and namespace conflicts
 
 This bundle adds Composer's autoloader to PHP's collection of autoloaders. It's added after Laravel's, so Laravel should have the first shot at resolving classes and namespaces. I suppose this means there is *some* chance of namespaces being resolved by Laravel when you want them to be resolved by Composer, but I guess you can figure that out.
+
+### License
+
+MIT license - [http://www.opensource.org/licenses/mit-license.php](http://www.opensource.org/licenses/mit-license.php)
