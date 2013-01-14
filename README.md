@@ -1,3 +1,7 @@
+# A note about Laravel 4
+
+Laravel 4 leverages Composer, so this bundle is obsolete.
+
 ## A [Composer](http://getcomposer.org/) bundle for [Laravel](http://laravel.com/)
 
 Not sure what's going on here? Here are the [Laravel docs](http://laravel.com/docs), and here are the [Composer docs](http://getcomposer.org/doc/).
